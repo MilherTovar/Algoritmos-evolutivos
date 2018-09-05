@@ -16,5 +16,10 @@ namespace Boxeadores
         {
             InitializeComponent();
         }
+
+        private void Generar_Click(object sender, EventArgs e)
+        {
+            Poblacion datos_poblacion = new Poblacion();
+        }
     }
 }

@@ -42,6 +42,7 @@
             this.Generar.TabIndex = 0;
             this.Generar.Text = "Generar Población";
             this.Generar.UseVisualStyleBackColor = true;
+            this.Generar.Click += new System.EventHandler(this.Generar_Click);
             // 
             // Evolucionar
             // 
