@@ -21,5 +21,21 @@ namespace Boxeadores
             Brazos = new bool[1];
             Fuerte = new bool[1];
         }
+
+        public Boxeador Generar_individuo()
+        {
+            Boxeador individuo = new Boxeador();
+            Random aleatorio = new Random();
+            int ale = aleatorio.Next(3);
+            individuo.Brazos = conversion(ale);
+            return individuo;
+        }
+
+        private bool[] conversion(int dato)
+        {
+            bool[] dato_conver = new bool[1];
+
+            return dato_conver;
+        }
     }
 }

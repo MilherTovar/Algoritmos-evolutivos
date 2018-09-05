@@ -10,6 +10,14 @@ namespace Boxeadores
     {
         List<Boxeador> Pobla = new List<Boxeador>();
 
-        public
+        public Poblacion generar_poblacion_inicial (int cantidad_individuos)
+        {
+            Poblacion poblacion_generada = new Poblacion();
+            for (int i = 0; i < cantidad_individuos; i++)
+            {
+                Boxeador individuo = new Boxeador();
+            }
+            return poblacion_generada;
+        }
     }
 }
