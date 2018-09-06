@@ -18,8 +18,8 @@ namespace Boxeadores
 
         public Boxeador()
         {
-            Brazos = new bool[1];
-            Fuerte = new bool[1];
+            Brazos = new bool[2];
+            Fuerte = new bool[2];
         }
 
         public Boxeador Generar_individuo()
@@ -36,7 +36,7 @@ namespace Boxeadores
 
         private bool[] conversion(int dato)
         {
-            bool[] dato_conver = new bool[1];
+            bool[] dato_conver = new bool[2];
             #region Código de convertir decimales a binarios con ciclos
             /*int contador = 0;
             for (int i = 0; i < 1; i++)
